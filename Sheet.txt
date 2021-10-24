@@ -1,0 +1,25 @@
+Tag Syntax:
+    <tagname>content</tagname>
+    -------------------------
+    <h1>This is Heading</h1>
+    <p>This is a Paragraph</p>
+    -------------------------
+    <br> (Break)
+    <br /> (self closing)* Not needed in HTML5
+    -------------------------
+    all HTML starts with <!DOCTYPE html>
+    -------------------------
+    Comments == <!-- This is a comment -->
+    -------------------------
+
+Inline Elements:
+    - Do not start on a new line 
+    - Take only the necessary width
+
+Block Elements:
+    - Start on a new line
+    - Take full width available
+
+Block Level: <div>, h1, p, form
+inline level: span, img, a
+
