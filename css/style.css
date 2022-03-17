@@ -1253,9 +1253,9 @@ input[type="checkbox"] {
   .row50 .inputBox {
     width: 100% !important;
   }
-  .formBox {
+  /*.formBox {
     width: 300px;
-  }
+  }*/
 }
 
 .footer {
