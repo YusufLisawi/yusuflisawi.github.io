@@ -27,8 +27,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-  font-family: 'Gilroy', 'poppins', 'lato', Arial, Helvetica, sans-serif;
-  background-color: #20232A;
+  font-family: "Gilroy", "poppins", "lato", Arial, Helvetica, sans-serif;
+  background-color: #20232a;
   color: #fff;
 }
 
@@ -52,7 +52,7 @@ ul {
 /* Small */
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 732px;
   }
 }
 
@@ -116,13 +116,13 @@ ul {
   width: fit-content;
   position: relative;
   z-index: 1;
-  -webkit-transition: .22s linear all;
-  transition: .22s linear all;
+  -webkit-transition: 0.22s linear all;
+  transition: 0.22s linear all;
   cursor: default;
 }
 
 .title .main-title::before, .title .main-title::after {
-  content: '';
+  content: "";
   width: 21px;
   height: 22px;
   background-color: #8739fa;
@@ -170,7 +170,8 @@ ul {
 }
 
 @-webkit-keyframes bouncing {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateY(10px);
   }
   50% {
@@ -179,7 +180,8 @@ ul {
 }
 
 @keyframes bouncing {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
   }
@@ -1090,7 +1092,7 @@ input[type="checkbox"] {
 }
 
 .services .my-services .service p {
-  color: #20232A;
+  color: #20232a;
   font-weight: 400;
   font-size: 20px;
 }
@@ -1164,7 +1166,8 @@ input[type="checkbox"] {
 }
 
 .contact .container .formBox {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   position: relative;
 }
 

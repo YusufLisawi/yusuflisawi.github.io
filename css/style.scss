@@ -667,7 +667,8 @@ input[type="checkbox"] {
 		flex-direction: column;
 		font-size: 1.3rem;
 		.formBox {
-			width: 100%;
+			width: 90%;
+			margin: 0 auto;
 			position: relative;
 			.inputBox span {
 				padding: 0 1rem;
