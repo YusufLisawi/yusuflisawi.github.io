@@ -666,6 +666,7 @@ input[type="checkbox"] {
 		align-items: center;
 		flex-direction: column;
 		font-size: 1.3rem;
+		overflow-x: hidden;
 		.formBox {
 			width: 90%;
 			margin: 0 auto;

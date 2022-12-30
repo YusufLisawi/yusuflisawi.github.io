@@ -1163,6 +1163,7 @@ input[type="checkbox"] {
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 1.3rem;
+  overflow-x: hidden;
 }
 
 .contact .container .formBox {
